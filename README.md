@@ -14,5 +14,5 @@ Fifty Shades of Colors is my first ever app that displays gradients of red, yell
 
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/*X1_Fifty%20Shades%20of%20Colors/Screen%20Shot%202019-12-26%20at%206.28.57%20PM.png)
 
-![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/*X1_Fifty%20Shades%20of%20Colors/Screen%20Shot%202019-12-26%20at%206.29.05%20PM.png)
+![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/Screen%20Shot%202019-12-26%20at%206.42.52%20PM.png)
 
