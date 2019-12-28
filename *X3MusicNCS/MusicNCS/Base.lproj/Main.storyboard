@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicNCS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOx-2Z-2wM">
+                                <rect key="frame" x="262" y="192" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PlayBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IZN-SO-4hR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jP7-i9-TVz">
+                                <rect key="frame" x="332" y="192" width="42" height="30"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PauseBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZs-vx-au6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMY-4K-rvY">
+                                <rect key="frame" x="30" y="192" width="108" height="30"/>
+                                <state key="normal" title="往未來飛的客機">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDr-MS-W6Z">
+                                <rect key="frame" x="30" y="472" width="109" height="30"/>
+                                <state key="normal" title="NCS - My Heart">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MB3-43-1Bh">
+                                <rect key="frame" x="262" y="332" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PlayBTN2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5C-bQ-Q0t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GS-Hi-J9L">
+                                <rect key="frame" x="332" y="332" width="42" height="30"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PauseBTN2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Vw-37-tKY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iwin's Workout Playlist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26m-qA-TTP">
+                                <rect key="frame" x="33.5" y="94" width="347" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37p-9T-aJb">
+                                <rect key="frame" x="30" y="332" width="148" height="30"/>
+                                <state key="normal" title="Maroon 5 - Memories">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ed Sheeran - Perfect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZ0-sO-9ZH">
+                                <rect key="frame" x="30" y="745" width="144" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYa-9O-RxQ">
+                                <rect key="frame" x="332" y="607" width="42" height="30"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PauseBTN4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eCv-FH-4Xe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clean Bandit - Symphony" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQe-dZ-8ML">
+                                <rect key="frame" x="30" y="612" width="174.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mP-29-9JE">
+                                <rect key="frame" x="262" y="607" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PlayBTN4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zgv-fP-0gs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDQ-2e-2fz">
+                                <rect key="frame" x="262" y="747" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PlayBTN5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7F9-7o-tb6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gC0-vq-XPC">
+                                <rect key="frame" x="332" y="747" width="42" height="30"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PauseBTN5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oA2-jP-zqz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PR-T1-I31">
+                                <rect key="frame" x="262" y="472" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PlayBTN3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2H-DE-UV0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOd-q8-KeD">
+                                <rect key="frame" x="332" y="472" width="42" height="30"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="PauseBTN3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jw0-vm-zvp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jP7-i9-TVz" secondAttribute="trailing" constant="40" id="0xo-wu-vUY"/>
+                            <constraint firstItem="AQe-dZ-8ML" firstAttribute="top" secondItem="JDr-MS-W6Z" secondAttribute="bottom" constant="110" id="15d-TL-Z72"/>
+                            <constraint firstItem="6PR-T1-I31" firstAttribute="top" secondItem="MB3-43-1Bh" secondAttribute="bottom" constant="110" id="2O8-8s-bfy"/>
+                            <constraint firstItem="tOx-2Z-2wM" firstAttribute="top" secondItem="26m-qA-TTP" secondAttribute="bottom" constant="50" id="7Tv-Ts-q9A"/>
+                            <constraint firstItem="AQe-dZ-8ML" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="7sd-0B-ERr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TYa-9O-RxQ" secondAttribute="trailing" constant="40" id="8lR-bD-iD1"/>
+                            <constraint firstItem="PDQ-2e-2fz" firstAttribute="top" secondItem="1mP-29-9JE" secondAttribute="bottom" constant="110" id="9RM-JQ-J6r"/>
+                            <constraint firstItem="5GS-Hi-J9L" firstAttribute="top" secondItem="jP7-i9-TVz" secondAttribute="bottom" constant="110" id="BwG-cn-Pa4"/>
+                            <constraint firstItem="gC0-vq-XPC" firstAttribute="leading" secondItem="PDQ-2e-2fz" secondAttribute="trailing" constant="40" id="HES-Gh-KMW"/>
+                            <constraint firstItem="jP7-i9-TVz" firstAttribute="top" secondItem="26m-qA-TTP" secondAttribute="bottom" constant="50" id="KuD-J1-pRc"/>
+                            <constraint firstItem="37p-9T-aJb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="KzS-i0-o7c"/>
+                            <constraint firstItem="gC0-vq-XPC" firstAttribute="top" secondItem="TYa-9O-RxQ" secondAttribute="bottom" constant="110" id="LqN-Ao-9P0"/>
+                            <constraint firstItem="aOd-q8-KeD" firstAttribute="top" secondItem="5GS-Hi-J9L" secondAttribute="bottom" constant="110" id="MZz-MX-gqc"/>
+                            <constraint firstItem="JDr-MS-W6Z" firstAttribute="top" secondItem="37p-9T-aJb" secondAttribute="bottom" constant="110" id="NAC-kn-63w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gC0-vq-XPC" secondAttribute="trailing" constant="40" id="Oq9-IQ-Fxb"/>
+                            <constraint firstItem="sMY-4K-rvY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Q5P-aY-4Qd"/>
+                            <constraint firstItem="26m-qA-TTP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RdT-SJ-dPP"/>
+                            <constraint firstItem="5GS-Hi-J9L" firstAttribute="leading" secondItem="MB3-43-1Bh" secondAttribute="trailing" constant="40" id="SNi-2X-kYq"/>
+                            <constraint firstItem="26m-qA-TTP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="UQg-71-o2e"/>
+                            <constraint firstItem="37p-9T-aJb" firstAttribute="top" secondItem="sMY-4K-rvY" secondAttribute="bottom" constant="110" id="VPe-Nf-FdC"/>
+                            <constraint firstItem="EZ0-sO-9ZH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="WFm-tc-JD6"/>
+                            <constraint firstItem="sMY-4K-rvY" firstAttribute="top" secondItem="26m-qA-TTP" secondAttribute="bottom" constant="50" id="YK4-cc-2xk"/>
+                            <constraint firstItem="1mP-29-9JE" firstAttribute="top" secondItem="6PR-T1-I31" secondAttribute="bottom" constant="105" id="bjD-8F-uOe"/>
+                            <constraint firstItem="MB3-43-1Bh" firstAttribute="top" secondItem="tOx-2Z-2wM" secondAttribute="bottom" constant="110" id="fZe-Jn-xtD"/>
+                            <constraint firstItem="AQe-dZ-8ML" firstAttribute="top" secondItem="JDr-MS-W6Z" secondAttribute="bottom" constant="110" id="gPX-Q8-Nrv"/>
+                            <constraint firstItem="TYa-9O-RxQ" firstAttribute="leading" secondItem="1mP-29-9JE" secondAttribute="trailing" constant="40" id="hYY-FO-npo"/>
+                            <constraint firstItem="aOd-q8-KeD" firstAttribute="leading" secondItem="6PR-T1-I31" secondAttribute="trailing" constant="40" id="kr0-OI-Tum"/>
+                            <constraint firstItem="PDQ-2e-2fz" firstAttribute="top" secondItem="1mP-29-9JE" secondAttribute="bottom" constant="110" id="lQH-PP-et3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aOd-q8-KeD" secondAttribute="trailing" constant="40" id="nwf-wZ-DLx"/>
+                            <constraint firstItem="26m-qA-TTP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oY8-Oy-Ymp"/>
+                            <constraint firstItem="EZ0-sO-9ZH" firstAttribute="top" secondItem="AQe-dZ-8ML" secondAttribute="bottom" constant="115" id="qAp-oF-Glv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5GS-Hi-J9L" secondAttribute="trailing" constant="40" id="sYT-0m-JAA"/>
+                            <constraint firstItem="JDr-MS-W6Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="xYJ-R0-mLv"/>
+                            <constraint firstItem="TYa-9O-RxQ" firstAttribute="top" secondItem="aOd-q8-KeD" secondAttribute="bottom" constant="105" id="xcQ-Ej-bQN"/>
+                            <constraint firstItem="jP7-i9-TVz" firstAttribute="leading" secondItem="tOx-2Z-2wM" secondAttribute="trailing" constant="40" id="ymA-0n-m7M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="PauseBTN" destination="jP7-i9-TVz" id="KTh-Bm-Ycn"/>
+                        <outlet property="PauseBTN2" destination="5GS-Hi-J9L" id="4BS-Z9-67k"/>
+                        <outlet property="PauseBTN3" destination="aOd-q8-KeD" id="BGx-qE-1I3"/>
+                        <outlet property="PauseBTN4" destination="TYa-9O-RxQ" id="d6C-AF-8VY"/>
+                        <outlet property="PauseBTN5" destination="gC0-vq-XPC" id="Sy3-Ms-qdu"/>
+                        <outlet property="PlayBTN" destination="tOx-2Z-2wM" id="eNW-ME-aJb"/>
+                        <outlet property="PlayBTN2" destination="MB3-43-1Bh" id="fXB-dd-DNK"/>
+                        <outlet property="PlayBTN3" destination="6PR-T1-I31" id="2hS-59-xCp"/>
+                        <outlet property="PlayBTN4" destination="1mP-29-9JE" id="5pM-jl-9CO"/>
+                        <outlet property="PlayBTN5" destination="PDQ-2e-2fz" id="mNw-B0-33s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="122.54464285714285"/>
+        </scene>
+    </scenes>
+</document>
