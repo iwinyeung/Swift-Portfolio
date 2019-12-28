@@ -5,7 +5,7 @@ A visual portfolio of my latest Swift iOS projects.
 
 # MP3 Music Player
 An app that plays my top 5 favorite workout songs utilizing the AVFoundation kits and audioPlayer functions in XCode. I designed this app extensively with the @IBOutlet and the @IBAction functions, keeping in mind that each button must be encoded with a unique url to the main path. 
-![]()
+![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/*X3MusicNCS/Screen%20Shot%202019-12-28%20at%201.27.00%20PM.png)
 
 # Stop Watch 
 A simple timer app that utilizes a 
