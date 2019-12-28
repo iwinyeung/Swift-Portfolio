@@ -9,7 +9,7 @@ An app that plays my top 5 favorite workout songs utilizing the AVFoundation kit
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/*X3MusicNCS/Screen%20Shot%202019-12-28%20at%201.27.00%20PM.png)
 
 # Stop Watch 
-A simple timer app that utilizes a 
+A simple timer app that utilizes the overide function, Timer.scheduledTimer function, and a counter to operate a timer. I designed this timer with the goal to start, pause, and reset, while keeping in mind that computers often have a floating number rounding error. I corrected this error by using a simple trick: (10*round(timer) / 10). 
 
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/*X_2StopWatch/Screen%20Shot%202019-12-26%20at%206.23.20%20PM.png)
 
