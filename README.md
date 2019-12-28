@@ -3,12 +3,14 @@
 # Swift-Portfolio
 A visual portfolio of my latest Swift iOS projects.
 
+# MP3 Music Player
+An app that plays my top 5 favorite workout songs utilizing the AVFoundation kits and audioPlayer functions in XCode. I designed this app extensively with the @IBOutlet and the @IBAction functions, keeping in mind that each button must be encoded with a unique url to the main path. 
+![]()
+
 # Stop Watch 
-A timer app that demonstrates optimization of the storyboard functions.
+A simple timer app that utilizes a 
 
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/*X_2StopWatch/Screen%20Shot%202019-12-26%20at%206.23.20%20PM.png)
-
-
 
 
 # Fifty Shades of Colors
