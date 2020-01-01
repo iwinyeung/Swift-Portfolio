@@ -1,8 +1,5 @@
 
 
-# Swift-Portfolio
-A visual portfolio of my latest Swift iOS projects.
-
 # MP3 Music Player
 An app that plays my top 5 favorite workout songs utilizing the AVFoundation kits and audioPlayer functions in XCode. I designed this app extensively with the @IBOutlet and the @IBAction functions, keeping in mind that each button must be encoded with a unique url to the main path. 
 
