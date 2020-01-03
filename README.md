@@ -2,6 +2,7 @@
 A simple calculator that utilizes Doubles, Strings, Tags, and Else-If statements to accomplish the task of adding,subtracting,multiplying, and dividing integers. 
 
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/calc/Screen%20Shot%202020-01-03%20at%201.25.03%20PM.png)
+
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/calc/Screen%20Shot%202020-01-03%20at%201.26.33%20PM.png)
 
 # MP3 Music Player
