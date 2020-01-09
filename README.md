@@ -1,3 +1,6 @@
+# FoodTracker (Apple Tutorial)
+Through this tutorial, I learned how to use controller life cycle and its callbacks to pass data between view controllers, use gesture recognizers to generate events, and more!
+
 # Calculator 
 A simple calculator that utilizes Doubles, Strings, Tags, and Else-If statements to accomplish the task of adding,subtracting,multiplying, and dividing integers. 
 
