@@ -1,5 +1,5 @@
 # Web Loading Icon
-<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/battery.gif" width="240"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/pacMan/pacman.gif" width="250" title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/CoffeeLoader/coffee.gif" width="246" title="Word Guess">
+<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/battery.gif" width="250"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/pacMan/pacman.gif" width="260" title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/CoffeeLoader/coffee.gif" width="256" title="Word Guess">
 </p>
 
 # 3D XYZ Spinner
