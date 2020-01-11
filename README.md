@@ -1,3 +1,7 @@
+# Testing
+<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/battery.gif" width="230"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/pacMan/pacman.gif" width="230" title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/CoffeeLoader/coffee.gif" width="226" title="Word Guess">
+</p>
+
 # Web Loading Icon
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/battery.gif);
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/pacMan/pacman.gif);
