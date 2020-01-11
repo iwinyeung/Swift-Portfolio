@@ -1,3 +1,6 @@
+
+![https://github.com/iwinyeung/Swift-Portfolio/blob/master/Screen%20Recording%202020-01-11%20at%2010.06%20AM.mov]
+
 # Calculator 
 A simple calculator that utilizes Doubles, Strings, Tags, and Else-If statements to accomplish the task of adding,subtracting,multiplying, and dividing integers. 
 
