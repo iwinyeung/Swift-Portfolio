@@ -1,5 +1,5 @@
 
-
+![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/battery.gif)
 
 # Calculator 
 A simple calculator that utilizes Doubles, Strings, Tags, and Else-If statements to accomplish the task of adding,subtracting,multiplying, and dividing integers. 
