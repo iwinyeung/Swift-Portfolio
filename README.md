@@ -1,5 +1,10 @@
-
+# Web Loading Icon
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/battery.gif)
+![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/pacMan/pacman.gif)
+![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/CoffeeLoader/coffee.gif)
+
+# 3D XYZ Spinner
+![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/XYZspinner/spinner.gif)
 
 # Calculator 
 A simple calculator that utilizes Doubles, Strings, Tags, and Else-If statements to accomplish the task of adding,subtracting,multiplying, and dividing integers. 
