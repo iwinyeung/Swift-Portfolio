@@ -1,5 +1,5 @@
 # Web Loading Icon
-Three animation icons of the loading icon that Utilizes private variables, withAnimation functions, and image imports. This animation also uses various features of the circle tool such as: .trim , .frame , .rorationEffect , .onAppear , ect. 
+Three animation icons of the loading icon that Utilizes private variables, withAnimation functions, and image imports. These animations also use various features of the circle tool such as: .trim , .frame , .rorationEffect , .onAppear .foregroundColor, ect.  
 
 <img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/battery.gif" width="250"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/pacMan/pacman.gif" width="260" title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/CoffeeLoader/coffee.gif" width="256" title="Word Guess">
 </p>
