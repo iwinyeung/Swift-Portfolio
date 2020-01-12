@@ -5,10 +5,11 @@ Three animation icons of the loading icon that Utilizes private variables, withA
 </p>
 
 # 3D XYZ Spinner
+This animation stimulates a physics demonstration of a vector spinner. Using private variables, VStacks, HStacks, and image functions, a spinner can be created in the x-y-z perspective. 
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/XYZspinner/spinner.gif)
 
 # Calculator 
-A simple calculator that utilizes Doubles, Strings, Tags, and Else-If statements to accomplish the task of adding,subtracting,multiplying, and dividing integers. 
+A simple calculator that utilizes Doubles, Strings, Tags, and Else-If statements to accomplish the task of adding,subtracting,multiplying, and dividing integers. This app utilizes a Main.storyboard and sender tags to give the buttons their numerical value. 
 
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/calc/Screen%20Shot%202020-01-03%20at%201.25.03%20PM.png)
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/calc/Screen%20Shot%202020-01-03%20at%201.26.33%20PM.png)
