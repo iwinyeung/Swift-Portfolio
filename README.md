@@ -6,6 +6,7 @@ Three animation icons of the loading icon that Utilizes private variables, withA
 
 # 3D XYZ Spinner
 This animation stimulates a physics demonstration of a spinner. Using private variables, VStacks, HStacks, and image functions, a spinner is animated in the x-y-z perspective. Using vectors, it is possible to animate this without the use of imported visuals or the Main.storyboard. 
+
 ![](https://github.com/iwinyeung/Swift-Portfolio/blob/master/XYZspinner/spinner.gif)
 
 # Calculator 
