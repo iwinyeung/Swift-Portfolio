@@ -1,3 +1,7 @@
+# Birthday Cake
+The birthday app is what I consider my first fully functional app - employing birthday class, handling user input, displaying birthdays, saving birthdays, and getting birthday notifications. I set up the visual interface by creating view controllers, buttons to navigate between them, and a table view controller that takes user input. I utilized Apple’s Core Data framework to save birthdays into the iPhone’s database as data and implemented Apples’ User Notifications framework to send local notifications so that an alert is sent to the user even when the app isn’t running. 
+
+
 # Web Loading Icon
 Three animation icons of the loading icon that Utilizes private variables, withAnimation functions, and image imports. These animations also use various features of the circle tool such as: .trim , .frame , .rorationEffect , .onAppear .foregroundColor, ect.  
 
