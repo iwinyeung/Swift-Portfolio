@@ -1,4 +1,4 @@
-# Birthday App
+# BirthdayApp
 The birthday app is what I consider my first functional app - employing birthday class, handling user input, displaying birthdays, saving birthdays, and getting birthday notifications. I set up the visual interface by creating view controllers that display the screen, buttons to navigate between them, and table view controllers that takes user input. I utilized Apple’s Core Data framework to save birthdays into the iPhone’s database as data and implemented Apples’ User Notifications framework to send local notifications so that an alert is sent to the user even when the app isn’t running. 
 
 <img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/BirthdayCake/IMG_1881.PNG" width="250"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/BirthdayCake/IMG_1882.PNG" width="250"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/iwinyeung/Swift-Portfolio/blob/master/BirthdayCake/IMG_1880.PNG" width="250"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
